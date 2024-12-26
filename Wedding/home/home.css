@@ -1,0 +1,68 @@
+.main{
+    height: 700px;
+    width:fit-content;
+    margin-left: 20px;
+}
+.card{
+    background-color: #d263632c;
+}
+.invite{
+    height:100vh;
+    width: fit-content;
+    margin-left: 55vh;
+    background: #d26363;
+}
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #de325422; /* Dark background for the nav */
+    padding: 10px 20px;
+    height: 7vh; /* Padding around the nav */
+    position: sticky;
+    top:0;
+    left: 0;
+    
+}
+
+.logo img {
+    height: 50px;
+    margin-left: 30px; /* Adjust logo size */
+}
+
+.nav-links {
+    list-style: none; /* Remove bullet points */
+    display: flex; /* Display links in a row */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.nav-links li {
+    margin-left: 20px; /* Space between links */
+}
+
+.nav-links a {
+    font-family: Arial, Helvetica, sans-serif;
+    color:black; /* Link color */
+    text-decoration: none; /* Remove underline */
+    padding: 5px 10px; /* Padding around links */
+}
+
+.nav-links a:hover {
+    color: #d26363; 
+    border-radius: 5px; /* Rounded corners */
+}
+footer {
+    background-color: #fa653848;
+    padding: 20px;
+    text-align: center;
+}
+.footer-content a {
+    color:brown;
+    margin:4px
+}
